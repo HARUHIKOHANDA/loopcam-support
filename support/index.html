@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="LoopCamの設定、使い方、トラブルシューティング、お問い合わせ。">
   <meta name="color-scheme" content="light dark">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; base-uri 'none'; form-action 'self' https://github.com; frame-ancestors 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; base-uri 'none'; form-action 'self' https://github.com">
   <title>サポート — LoopCam</title>
   <link rel="stylesheet" href="../assets/styles.css">
 </head>
@@ -53,11 +53,11 @@
       </details>
       <details>
         <summary>購入したのに透かしが消えません</summary>
-        <p>購入時と同じApple Accountでサインインし、LoopCamの設定から「購入を復元」を選択してください。購入は買い切りで、重複して課金されることはありません。</p>
+        <p>購入時と同じApple Accountでサインインし、LoopCamの設定から「購入を復元」を選択してください。同じApple Accountでは再購入を試さず、購入の復元をご利用ください。</p>
       </details>
       <details>
         <summary>返金について確認したいです</summary>
-        <p>決済と返金はAppleが管理しています。購入履歴や返金申請については、Appleの「問題を報告する」ページまたはAppleサポートへお問い合わせください。公開Issueへ購入明細を投稿しないでください。</p>
+        <p>決済と返金はAppleが管理しています。購入履歴や返金申請については、Appleの<a href="https://reportaproblem.apple.com/">「問題を報告する」ページ</a>またはAppleサポートへお問い合わせください。公開Issueへ購入明細を投稿しないでください。</p>
       </details>
       <details>
         <summary>以前のLoopが再起動後に見つかりません</summary>
@@ -65,11 +65,15 @@
       </details>
 
       <h2>お問い合わせ</h2>
-      <p>解決しない問題は、GitHubの公開Issueからお問い合わせください。通常、公開内容を確認して対応します。</p>
-      <p><a class="button primary" href="https://github.com/HARUHIKOHANDA/loopcam-support/issues/new?template=support.yml">サポートIssueを作成</a></p>
+      <p>非公開のお問い合わせ、プライバシー・削除依頼、セキュリティ報告はメールで受け付けます。一般的な不具合や機能要望は、GitHubの公開Issueも利用できます。</p>
+      <div class="actions">
+        <a class="button primary" href="mailto:hhanda@gmail.com?subject=LoopCam%20Support">メールで問い合わせる</a>
+        <a class="button secondary" href="https://github.com/HARUHIKOHANDA/loopcam-support/issues/new?template=support.yml">公開Issueを作成</a>
+      </div>
+      <p>公開用サポートメール：<a href="mailto:hhanda@gmail.com">hhanda@gmail.com</a></p>
       <aside class="warning">
         <strong>公開Issueへ投稿しないもの</strong>
-        <p>氏名、メールアドレス、Apple Account、購入明細、会議名・参加者、カメラ映像、ログに含まれる個人情報などは投稿しないでください。画面画像を添付する場合は、個人情報を必ず隠してください。</p>
+        <p>氏名、メールアドレス、Apple Account、購入明細、会議名・参加者、カメラ映像、ログに含まれる個人情報、脆弱性やセキュリティ上の詳細は投稿しないでください。機密情報を含む内容はメールを使用し、画面画像を添付する場合は個人情報を必ず隠してください。</p>
       </aside>
 
       <h2>お問い合わせ時にあると役立つ情報</h2>
@@ -93,7 +97,7 @@
         <h2 id="support-en">Support in English</h2>
         <p>LoopCam supports Apple Silicon Macs running macOS 14 or later and outputs 720p video at 30 fps. Enable the Camera Extension in LoopCam Settings, restart your meeting app, and select “LoopCam” from its camera list.</p>
         <p>If a purchase is not recognized, sign in with the Apple Account used for the purchase and select “Restore Purchases” in LoopCam Settings.</p>
-        <p>For assistance, <a href="https://github.com/HARUHIKOHANDA/loopcam-support/issues/new?template=support.yml">open a support issue</a>. Do not include personal information, meeting details, purchase receipts, or camera video in a public issue. Apple handles payments and refunds; contact Apple Support for purchase-history or refund requests.</p>
+        <p>For private support, privacy or deletion requests, and security reports, email <a href="mailto:hhanda@gmail.com">hhanda@gmail.com</a>. For general bugs and feature requests, you may <a href="https://github.com/HARUHIKOHANDA/loopcam-support/issues/new?template=support.yml">open a public support issue</a>. Do not include personal information, meeting details, purchase receipts, camera video, or vulnerability details in a public issue. Apple handles payments and refunds; contact Apple Support for purchase-history or refund requests.</p>
         <p>Use your own video as a brief privacy pause, with participant consent and in accordance with meeting and organizational rules. Do not use LoopCam where real-time video is required for identity, attendance, proctoring, or examinations. LoopCam is not affiliated with or endorsed by Zoom or other meeting services.</p>
       </section>
     </article>

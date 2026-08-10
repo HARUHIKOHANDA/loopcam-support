@@ -7,6 +7,7 @@ body:
     attributes:
       value: |
         お問い合わせありがとうございます。公開Issueには、氏名、メールアドレス、Apple Account、購入明細、会議情報、カメラ映像などの個人情報を記載しないでください。
+        非公開のお問い合わせ、削除依頼、脆弱性やセキュリティ報告は hhanda@gmail.com へ送信してください。
   - type: input
     id: app-version
     attributes:
