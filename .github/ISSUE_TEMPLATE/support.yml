@@ -1,0 +1,61 @@
+name: LoopCam サポート
+description: LoopCamの不具合や使い方について問い合わせる
+title: "[Support] "
+labels: [support]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        お問い合わせありがとうございます。公開Issueには、氏名、メールアドレス、Apple Account、購入明細、会議情報、カメラ映像などの個人情報を記載しないでください。
+  - type: input
+    id: app-version
+    attributes:
+      label: LoopCamのバージョン
+      placeholder: "例: 1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOSのバージョン
+      placeholder: "例: macOS 14.7"
+    validations:
+      required: true
+  - type: dropdown
+    id: mac-model
+    attributes:
+      label: Macのチップ
+      options:
+        - Apple M1
+        - Apple M2
+        - Apple M3
+        - Apple M4
+        - Apple M5以降
+        - 不明
+    validations:
+      required: true
+  - type: input
+    id: meeting-app
+    attributes:
+      label: 会議アプリとバージョン
+      placeholder: "例: Zoom 6.x"
+  - type: textarea
+    id: steps
+    attributes:
+      label: 問題と再現手順
+      description: 個人情報を除き、どの操作の後に何が起きたかを記載してください。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期待した動作
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 公開情報の確認
+      options:
+        - label: 個人情報、購入明細、会議情報、カメラ映像を含めていません。
+          required: true
